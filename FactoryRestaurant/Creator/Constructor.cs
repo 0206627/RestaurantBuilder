@@ -1,10 +1,11 @@
 ﻿using System;
+using FactoryRestaurant.Models;
+
 namespace FactoryRestaurant.Creator
 {
-    public class Constructor
+    public abstract class Constructor
     {
-        public Constructor()
-        {
-        }
+        public abstract IHamburguesa CrearHamburguesa();
+        public abstract IBaguette CrearBaguette();
     }
 }

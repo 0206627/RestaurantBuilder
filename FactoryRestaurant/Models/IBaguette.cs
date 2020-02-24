@@ -1,10 +1,8 @@
 ﻿using System;
 namespace FactoryRestaurant.Models
 {
-    public class IBaguette
+    public interface IBaguette
     {
-        public IBaguette()
-        {
-        }
+        string PrepararBaguette();
     }
 }
